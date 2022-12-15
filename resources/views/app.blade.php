@@ -188,11 +188,10 @@
                         <nav class="off-canvas-nav">
                             <ul class="mobile-menu main-mobile-menu">
                                 <li class="menu-item">
-                                    <a target="_blank" href="https://casemanager.appylaw.com">Case Manager</a>
+                                    <a target="_blank" href="{{ route('case_manager') }}">Case Manager</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="{{ route('resource_center') }}">Resource Center</a>
-                                </li>
+                                    <a href="{{ route('resource_center') }}">Resource Center
                                 <li class="menu-item">
                                     <a href="{{ route('legal_event') }}">Events</a>
                                 </li>
